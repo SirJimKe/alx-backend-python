@@ -2,11 +2,8 @@
 """Math floor"""
 
 
-from math import floor
-
-
-def floor_function(n: float) -> int:
+def floor(n: float) -> int:
     """
     Return the floor of the input float.
     """
-    return floor(n)
+    return int(n)
