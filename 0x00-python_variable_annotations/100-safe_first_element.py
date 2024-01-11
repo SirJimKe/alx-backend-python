@@ -2,10 +2,10 @@
 """Duck-typed annotations"""
 
 
-from typing import Any, List, Optional
+from typing import Any, Sequence, Union
 
 
-def safe_first_element(lst: List[Any]) -> Optional[Any]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     Returns the first element of a list, or None if the list is empty.
     """
